@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="about.html" class="logo">Myo Min Myat</a>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+        <nav id="nav-menu">
+            <a href="portfoliohome.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="projects.html">My Projects</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="myominphoto.JPG" style="border-radius:10% ;width:50rem;height:auto;" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi Users,My name is <span>Myo Min Myat</span>.</h1>
+            <h3 class="typing-text">I am a <span></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit numquam fugit porro quasi dolores
+                temporibus tempora sapiente placeat odio rerum quam voluptas debitis cupiditate, inventore, iste
+                possimus earum tenetur saepe.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/myo.m.myat.9693/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/MyoMinMyat0111"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                
+            </div>
+            <a href="Myo Min Myat's Resume.pdf" download="Myo Min Myat's Resume.pdf"><button type="button">Download
+                    CV</button></a>
+        </div>
+    </section>
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>

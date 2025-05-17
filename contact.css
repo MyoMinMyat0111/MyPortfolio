@@ -1,0 +1,184 @@
+
+/* input {
+    background-color: white;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    
+    width: 70%;
+    border: none;
+   
+} */
+/* input[type=text] {
+    background-color: white;
+    font-size: 18px;
+    border: none;
+    color: black;
+    padding: 10px 10px 10px 5px;
+    margin-top: 10px;
+
+
+} */
+
+/* input:focus~label,
+input:valid~label {
+    top: -20px;
+    font-size: 14px;
+    color: #5264AE;
+}
+
+input:focus {
+    outline: none;
+} */
+body{
+    background-color: white;
+}
+
+.login-box {
+    position: absolute;
+    margin-top:40px;
+    top: 60%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.login-box p{
+    margin-top:30px;
+    color:black;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+.div2{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+
+}
+.login-box form  {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+}
+
+.login-box .user-box textarea {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box textarea:focus~label,
+.login-box .user-box textarea:valid~label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+input[type=reset] {
+    position: relative;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid #b74b4b;
+    box-shadow: 0px 0px 20px #b74b4b;
+    cursor: pointer;
+    width: 100%;
+    background-color: #b74b4b;
+}
+
+input[type=reset]:hover {
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid #d52e2e;
+    box-shadow: 0px 0px 20px #b74b4b;
+    cursor: pointer;
+    width: 100%;
+    background-color: #a10101;
+
+}
+
+input[type=submit] {
+    position: relative;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid #76bf41;
+    box-shadow: 0px 0px 20px #56ae4b;
+    cursor: pointer;
+    width: 100%;
+    background-color: #68c24b;
+}
+
+input[type=submit]:hover {
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid #6eef12;
+    box-shadow: 0px 0px 20px #4dcd3c;
+    cursor: pointer;
+    width: 100%;
+    background-color: #48f80d;
+
+}

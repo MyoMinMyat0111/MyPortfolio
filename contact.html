@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        .social-icons a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 4rem;
+            height: 4rem;
+            background-color: #b74b4b;
+            border: 0.2rem solid #b74b4b;
+            font-size: 2rem;
+            border-radius: 50%;
+            margin: 3rem 1.5rem 3rem 0;
+            transition: 0.3s ease;
+            color: white;
+            float: right;
+            bottom: 10px;
+            position: relative;
+
+        }
+
+        .div1 {
+            bottom: 0px;
+            position: relative;
+        }
+
+        .social-icons a:hover {
+            color: black;
+            transform: scale(1.3) translateY(-5px);
+            background-color: #b74b4b;
+            box-shadow: 0 0 25px #b74b4b;
+        }
+
+        header {
+            margin-top:-10px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem 9%;
+            background-color: rgb(241, 173, 65);
+            border-radius: 2px rgb(246, 160, 22);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+
+        }
+        nav a {
+            font-size: 1.8rem;
+            color: #d41212;
+            margin-right: 4rem;
+            font-weight: 500;
+            transition: 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="background-color: #2b2a2f;border-radius: 20px;margin:0;">
+        <a href="about.html" class="logo">Myo Min Myat</a>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+        <nav id="nav-menu">
+            <a href="portfoliohome.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="projects.html">My Projects</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <div class="login-box">
+        <h2>Contact us</h2>
+        <p>If you have any questions or need further assistance, feel free to reach out to us using the form below. We are here to help and will get back to you as soon as possible!</p>
+        <form action="">
+            <div class="user-box">
+                <input type="email" name="" id="">
+                <label class="label" for="email">Email</label>
+            </div>
+            <!-- <div class="user-box">
+                <input type="password" name="" required="">
+                <label>Password</label> -->
+            <!-- </div> -->
+
+            <div class="user-box">
+                <input type="password" name="" required="">
+                <label>Password</label>
+
+                <div class="user-box">
+                    <textarea name="" id="" style="max-width: 320px;" cols="50" rows="6"></textarea>
+                    <label class="label" for="">Message</label>
+                </div>
+
+                <div class="div2"><input type="reset" value="Cancel">
+                    <input type="submit" value="Submit">
+                </div>
+
+        </form>
+
+    </div>
+
+
+    <div class="div1">
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/myo.m.myat.9693/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/MyoMinMyat0111"><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </div>
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+    
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>

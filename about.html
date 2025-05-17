@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        header {
+            margin-top: -10px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem 9%;
+            background-color: rgb(56, 54, 54);
+            border-radius: rgb(56, 54, 54);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+
+        }
+
+        @media (max-width:786px) {
+
+            .about_container .about_contents {
+                margin-top: 5rem;
+                grid-template-areas: 'imageSect imageSect'
+                    'infoSect infoSect'
+                    'skillSect  skillSect';
+
+            }
+
+
+        }
+
+        nav a {
+            font-size: 1.8rem;
+            color: #d41212;
+            margin-right: 4rem;
+            font-weight: 500;
+            transition: 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+
+        /* header {
+        margin-top: -10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 1rem 9%;
+        background-color: rgb(56, 54, 54);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .menu-toggle {
+        display: none;
+        font-size: 2rem;
+        color: #d41212;
+        cursor: pointer;
+    }
+
+    nav {
+        display: flex;
+        gap: 2rem;
+    }
+
+    nav a {
+        font-size: 1.8rem;
+        color: #d41212;
+        font-weight: 500;
+        transition: 0.3s ease;
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
+    }
+
+    nav a:hover {
+        border-bottom: 3px solid #d41212;
+    }
+
+    @media (max-width: 768px) {
+        .menu-toggle {
+            display: block;
+        }
+
+        nav {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: rgb(56, 54, 54);
+            padding: 1rem 0;
+        }
+
+        nav a {
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        nav.active {
+            display: flex;
+        }
+    } */
+        /* .about_container {
+            margin-top: 60%;
+            padding: 2rem;
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="about.html" class="logo">Myo Min Myat</a>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+        <nav id="nav-menu">
+            <a href="portfoliohome.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="projects.html">My Projects</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    <div class="about_container">
+        <div class="about_contents" >
+            <section class="imageSection">
+                <img src="myominphoto.JPG" alt="">
+            </section>
+            <section class="infoSection">
+                <h1>About Me</h1>
+                <h2>Professional Web Designer & Developer having 8 months of experience</h2>
+                <p>I am passionate about creating visually appealing and user-friendly websites. My goal is to deliver
+                    high-quality web solutions that meet client expectations and provide an excellent user experience.
+                </p>
+                <p>With a strong foundation in HTML, CSS, JavaScript, and PHP, I specialize in building responsive and
+                    dynamic websites. I am constantly learning and improving my skills to stay updated with the latest
+                    web development trends.</p>
+                <div class="personalInfo">
+                    <div><span>Name:</span><span>Myo Min Myat</span><span>Profession:</span><span>Web Designer &
+                            Developer</span><span>Experience:</span><span>8 months</span>
+                        <span>Email:</span>
+                        <span>myominmyat5566@gmail.com</span>
+                    </div>
+                </div>
+                <div class="button"><a href="Myo Min Myat's Resume.pdf" download="Myo Min Myat's Resume.pdf"><button>Download CV</button></a></div>
+            </section>
+            <section class="skillSection">
+                <div class="skill">
+                    <div class="subject">CSS
+                        <div class="progress_bar">
+                            <div class="progress_line" value="92" style="max-width:92%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="subject">HTML
+                        <div class="progress_bar">
+                            <div class="progress_line" value="94" style="max-width:94%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="subject">JAVA
+                        <div class="progress_bar">
+                            <div class="progress_line" value="83" style="max-width:83%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="subject">JS
+                        <div class="progress_bar">
+                            <div class="progress_line" value="92" style="max-width:92%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="subject">PHP
+                        <div class="progress_bar">
+                            <div class="progress_line" value="75" style="max-width:75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="subject">JSnode
+                        <div class="progress_bar">
+                            <div class="progress_line" value="50" style="max-width:50%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="subject">Web Design
+                        <div class="progress_bar">
+                            <div class="progress_line" value="60" style="max-width:60%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
