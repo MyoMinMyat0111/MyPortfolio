@@ -370,6 +370,11 @@ nav a:active {
         grid-template-columns: 1fr;
 
     }
+    .personalInfo div span {
+        
+        font-size: 16px;
+        
+    }
 
 
 }
