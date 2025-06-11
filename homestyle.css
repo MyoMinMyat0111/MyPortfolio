@@ -198,6 +198,10 @@ nav a:active {
      .logo{
         font-size: 2.5rem;
     }
+    .home .home-content h1 span{
+    font-size: 5rem;
+
+}
 }
 
 section {
